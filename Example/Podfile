@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LBResourceBundleManager_Example' do
+  pod 'LBResourceBundleManager', :path => '../'
+
+  target 'LBResourceBundleManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
