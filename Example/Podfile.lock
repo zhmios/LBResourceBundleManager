@@ -1,0 +1,16 @@
+PODS:
+  - LBResourceBundleManager (0.1.0)
+
+DEPENDENCIES:
+  - LBResourceBundleManager (from `../`)
+
+EXTERNAL SOURCES:
+  LBResourceBundleManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LBResourceBundleManager: 7ff740128fe44a906f1d27ed8705a5bd671836f2
+
+PODFILE CHECKSUM: cd02ad2e7b1abad4388ff8e86449a56b1905bae2
+
+COCOAPODS: 1.6.1

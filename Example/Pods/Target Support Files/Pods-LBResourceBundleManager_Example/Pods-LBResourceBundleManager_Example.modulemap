@@ -1,0 +1,6 @@
+framework module Pods_LBResourceBundleManager_Example {
+  umbrella header "Pods-LBResourceBundleManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

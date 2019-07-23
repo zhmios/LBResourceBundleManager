@@ -1,0 +1,6 @@
+framework module LBResourceBundleManager {
+  umbrella header "LBResourceBundleManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -38,11 +38,11 @@
 
 /* Begin PBXFileReference section */
 		0356CEAB7EFDB8FD038EA7EA /* Pods-LBResourceBundleManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBResourceBundleManager_Example.release.xcconfig"; path = "Target Support Files/Pods-LBResourceBundleManager_Example/Pods-LBResourceBundleManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		04F800D29C8889AF9FA36639 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		1A537102B24245A359F2A76B /* LBResourceBundleManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LBResourceBundleManager.podspec; path = ../LBResourceBundleManager.podspec; sourceTree = "<group>"; };
+		04F800D29C8889AF9FA36639 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1A537102B24245A359F2A76B /* LBResourceBundleManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LBResourceBundleManager.podspec; path = ../LBResourceBundleManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2053E8034D4D47129186F628 /* Pods_LBResourceBundleManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBResourceBundleManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		357391AA60BA4A168DD73FBE /* Pods-LBResourceBundleManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBResourceBundleManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LBResourceBundleManager_Tests/Pods-LBResourceBundleManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		41AF3FB84CC42AF39BEDA4B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		41AF3FB84CC42AF39BEDA4B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LBResourceBundleManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBResourceBundleManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -103,7 +103,6 @@
 				357391AA60BA4A168DD73FBE /* Pods-LBResourceBundleManager_Tests.debug.xcconfig */,
 				A002397EFFF4DE7D698CBA2E /* Pods-LBResourceBundleManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
